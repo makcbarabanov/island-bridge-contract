@@ -17,6 +17,7 @@
 
 ## Топология
 
+- `[FORGE SANDBOX]` Хост: локальная машина Макса, путь: `/home/makc/Apps/island`
 - `[PROD WEB]` IP: `188.225.44.48`, путь: `/home/makc/Apps/island`
 - `[TELEGRAM BOT]` IP: `23.172.217.180`, путь: `/home/makc/bridge`
   - Деплой веба сюда строго ЗАПРЕЩЕН.
