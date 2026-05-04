@@ -7,6 +7,7 @@
 - Репозиторий: `bridge`, процесс: `systemctl --user` → `bridge-bot.service`, скрипт `./bridge restart|status|logs`.
 - Конфиг: `.env` на сервере с ботом (не в git).
 - Логи приложения: `bridge_bot.log` (если пишется в файл).
+- **Чужое расписание в одном сообщении с твоим (утро/вечер):** переменная `ISLAND_SHARE_SCHEDULE_BUDDIES` — формат `telegram_id_получателя:user_id_острова_чьё_расписание`, через запятую. Пример: `310055372:17` (Макс в Telegram видит в том же push блок по шагам пользователя `users.id=17` на Острове). Опционально подпись блока: `ISLAND_SHARE_SCHEDULE_BUDDY_LABEL=Света`. Если `ISLAND_SHARE_SCHEDULE_BUDDIES` не задана, в коде `bridge` задан дефолт `310055372:17` для текущего прод-проекта.
 
 ## Остров
 
